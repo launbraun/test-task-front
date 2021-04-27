@@ -1,0 +1,148 @@
+.item {
+    width: 400px;
+    margin: 15px;
+    height: 520px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow .2s linear;
+    cursor: pointer;
+}
+
+.item:hover {
+    box-shadow:0 0 25px rgba(0, 0, 0, .4);
+}
+
+.top-box {
+    font-family: "Open Sans";
+    font-weight: 400;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border-top: red 1px solid;
+    border-bottom: blue 1px solid;
+    padding: 10px;
+    border-radius: 30px ;
+}
+
+.top-box span {
+    font-size: 24px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+}
+.text-content{
+    padding: 10px;
+    position: relative;
+}
+
+.period {
+    font-family: "Open Sans";
+    font-weight: 400;
+    border-radius: 10px 0 0 0 ;
+    border-top: lightblue 2px solid;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    line-height: 2.9;
+    position: absolute;
+    right: 0;
+    top: -56px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.text-header {
+    font-family: "Open Sans";
+    display: flex;
+    line-height: 1.25;
+    align-items: center;
+    height: 120px;
+    text-align: justify;
+    padding-left: 10px;
+    margin: 10px 15px;
+    border-left: 5px solid dodgerblue;
+}
+
+.price-text {
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+
+.price {
+    font-size: 30px;
+    padding: 0 5px;
+    font-weight: bold;
+    border-bottom: 1px dodgerblue solid;
+}
+
+.title {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 36px;
+    margin: 30px 0;
+}
+.sub-title{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 24px;
+    position: relative;
+    margin: 30px 0;
+}
+
+.price-color {
+    color: dodgerblue;
+    font-weight: 600;
+}
+.date-color {
+    padding: 5px 10px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: 500;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.description {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    margin: 30px 20px;
+    padding: 20px;
+    text-align: justify;
+    border-left: 5px solid dodgerblue;
+}
+
+.header {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 20px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.slider {
+    box-shadow: 0 4px 3px rgba(0, 0, 0, .4);
+    width: 100%;
+}
+
+
+

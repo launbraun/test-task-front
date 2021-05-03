@@ -144,5 +144,34 @@
     width: 100%;
 }
 
+.btn {
+    width: 190px;
+    height: 50px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    background-color: dodgerblue;
+    margin: 40px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    transition: box-shadow .1s linear;
+}
+
+.btn:hover {
+    box-shadow:0 0 25px rgba(0, 0, 0, .4);
+}
+
+
+
+.reload {
+    width: 17px;
+    margin: 0 5px;
+}
+
 
 
